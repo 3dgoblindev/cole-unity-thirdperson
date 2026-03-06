@@ -6,10 +6,13 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     CharacterController characterController;
+    GameObject playerModel;
+    Animator animator;  
 
     InputAction moveAction;
     InputAction jumpAction;
     InputAction SprintAction;
+    InputAction interactAction;
 
     Vector2 moveVector;
 
@@ -34,10 +37,14 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+        //Gets the child of the player with the name PlayerModel
+        playerModel = transform.Find("PlayerModel").gameObject;
+        animator = playerModel.GetComponent<Animator>();
 
         moveAction = InputSystem.actions.FindAction("Move");
         jumpAction = InputSystem.actions.FindAction("Jump");
         SprintAction = InputSystem.actions.FindAction("Sprint");
+        interactAction = InputSystem.actions.FindAction("Interact");
 
     }
 
@@ -47,10 +54,17 @@ public class PlayerController : MonoBehaviour
         UpdateInput();
         CalculateGravity();
         Jump();
+        Dance();
         Sprint();
         MovePlayer();
         CalculateStamina();
         TurnPlayer();
+        UpdateAnimations();
+    }
+    void UpdateAnimations() 
+    {
+        animator.SetFloat("Speed", characterController.velocity.magnitude);
+        print("Speed: " + characterController.velocity.magnitude);
     }
 
     void UpdateInput() {
@@ -59,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
     void MovePlayer()
     {
+
         Vector3 move = new Vector3(moveVector.x, 0, moveVector.y);
         move = Camera.main.transform.TransformDirection(move);
 
@@ -103,6 +118,16 @@ public class PlayerController : MonoBehaviour
             verticalForce = Mathf.Sqrt(-2 * gravity * jumpHeight);
             print("saltando");
             stamina -= 0.2f;
+            animator.SetTrigger("Jump");
+        }
+        
+    }
+
+    void Dance()
+    { 
+        if (interactAction.triggered)
+        {
+            animator.SetTrigger("Dance");
         }
     }
 
