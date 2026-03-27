@@ -64,7 +64,7 @@ public class PlayerController : MonoBehaviour
     void UpdateAnimations() 
     {
         animator.SetFloat("Speed", characterController.velocity.magnitude);
-        print("Speed: " + characterController.velocity.magnitude);
+        //print("Speed: " + characterController.velocity.magnitude);
     }
 
     void UpdateInput() {
