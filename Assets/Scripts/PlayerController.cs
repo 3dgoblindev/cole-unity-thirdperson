@@ -117,7 +117,7 @@ public class PlayerController : MonoBehaviour
         {
             verticalForce = Mathf.Sqrt(-2 * gravity * jumpHeight);
             print("saltando");
-            stamina -= 0.2f;
+            stamina -= 4f*staminaFactor;
             animator.SetTrigger("Jump");
         }
         
@@ -155,11 +155,11 @@ public class PlayerController : MonoBehaviour
         else {
             if (!SprintAction.IsPressed() && characterController.velocity.normalized.magnitude > 0)
             {
-                stamina += Time.deltaTime * staminaFactor * 0.2f;
+                stamina += Time.deltaTime * staminaFactor * 2f;
             }
             else
             {
-                stamina += Time.deltaTime * staminaFactor * 0.8f;
+                stamina += Time.deltaTime * staminaFactor * 4f;
 
             }
         }
