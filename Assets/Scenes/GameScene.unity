@@ -94,7 +94,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 9482287c166f2ad469120977efef8df0, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -249,6 +249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Does this have a goal?
@@ -337,7 +341,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &52782435
 BoxCollider:
@@ -445,7 +449,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &82849745
 BoxCollider:
@@ -553,7 +557,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &98711124
 Transform:
@@ -837,7 +841,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &165058091
 Transform:
@@ -945,7 +949,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &172999036
 Transform:
@@ -1053,7 +1057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &203777631
 BoxCollider:
@@ -1161,7 +1165,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &220809951
 Transform:
@@ -1270,7 +1274,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &249155910
 Transform:
@@ -3314,6 +3318,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: If you touch next cube you'll lose
@@ -3387,6 +3395,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
@@ -3603,7 +3615,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &283496011
 Transform:
@@ -3742,7 +3754,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &297461673
 Transform:
@@ -3850,7 +3862,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &301918776
 BoxCollider:
@@ -4163,6 +4175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: What do you think?
@@ -4202,7 +4218,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &365706845
 Transform:
@@ -4309,7 +4325,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!108 &410087040
 Light:
@@ -4361,13 +4377,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 5000
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: -1.108989e-28, z: 7.83e-43, w: 4.8e-44}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -6538,6 +6554,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Is she having fun?
@@ -6777,6 +6797,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: textDisplay
       value: 
@@ -6990,7 +7014,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &553958548
 Transform:
@@ -7098,7 +7122,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &579341661
 Transform:
@@ -7241,6 +7265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (53)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Isn't platforming challenging?
@@ -7309,6 +7337,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
@@ -7465,6 +7497,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Good job
@@ -7563,7 +7599,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &729033522
 BoxCollider:
@@ -7671,7 +7707,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &758837856
 Transform:
@@ -7779,7 +7815,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &765708306
 Transform:
@@ -7887,7 +7923,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &779634259
 Transform:
@@ -8422,7 +8458,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &841454790
 Transform:
@@ -8566,6 +8602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (51)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: mortal
       value: 1
@@ -8644,6 +8684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Can you get a non closed formal system from code?
@@ -8678,7 +8722,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &915461789
 Transform:
@@ -8791,7 +8835,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &938075581
 Transform:
@@ -8934,6 +8978,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (54)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: And isn't it fun?
@@ -9003,6 +9051,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Are you engaged?
@@ -9037,7 +9089,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &960660393
 Transform:
@@ -9145,7 +9197,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &969092554
 BoxCollider:
@@ -9452,7 +9504,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1019767285
 Transform:
@@ -9644,7 +9696,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1103825829
 Transform:
@@ -9752,7 +9804,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1116424602
 Transform:
@@ -9860,7 +9912,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1123117534
 Transform:
@@ -10003,6 +10055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Did someone force you?
@@ -10076,6 +10132,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
@@ -10311,6 +10371,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Do you have a goal?
@@ -10350,7 +10414,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1151136663
 Transform:
@@ -10670,6 +10734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Here could be a fun chase
@@ -10880,7 +10948,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1232271077
 Transform:
@@ -11096,7 +11164,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1273431283
 BoxCollider:
@@ -11238,6 +11306,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
@@ -11452,7 +11524,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1324041646
 Transform:
@@ -11636,6 +11708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Is this shitpost?
@@ -11710,6 +11786,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Isn't your time instrisically vualuable?
@@ -11783,6 +11863,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
@@ -12176,6 +12260,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
@@ -12813,6 +12901,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Is platforming conflict?
@@ -13173,7 +13265,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1710234517
 Transform:
@@ -13281,7 +13373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!64 &1754394653
 MeshCollider:
@@ -13523,6 +13615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: Go back to chicka
@@ -13558,7 +13654,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &1887201828
 BoxCollider:
@@ -13666,7 +13762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1901225244
 Transform:
@@ -13809,6 +13905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cube (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: message
       value: characterController.Move(move * Time.deltaTime * speed);
@@ -13853,7 +13953,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1966522123
 Transform:
@@ -13961,7 +14061,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1997492424
 Transform:
@@ -14074,7 +14174,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!65 &2026236071
 BoxCollider:
@@ -14182,7 +14282,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2027282485
 Transform:
@@ -14290,7 +14390,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2071046075
 Transform:
@@ -14679,7 +14779,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2103371607
 Transform:
@@ -14822,6 +14922,10 @@ PrefabInstance:
     - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: m_Name
       value: Cube (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7154249890971958656, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9008628619698308036, guid: d63a97cf21a549246b8717d8a20453b2, type: 3}
       propertyPath: textDisplay
